@@ -21,6 +21,7 @@ jobs:
         uses: actions/setup-python@v3
         with:
           python-version: '3.8'
+          
       
       - name: 🚀 Run SMSBoom Script
         # 此处可以自定义命令行运行参数.替换手机号
